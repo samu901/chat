@@ -11,7 +11,7 @@ body{
 div#messages{
     width: 100vw;
     height: 90vh;
-    overflow-y: hidden;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
 }
