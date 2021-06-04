@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+div#messages{
+    width: 100vw;
+    height: 90vh;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+div#send{
+    width: 100vw;
+    height: 10vh;
+    border-top: 2px solid #ccc;
+}
+
+input[type="text"]{
+    height: 100%;
+    width: 90vw;
+    font-size: 30px;
+}
+
+input[type="submit"]{
+    height: 100%;
+    width: 9vw;
+}
+
+div.message{
+    background-color: #ccc;
+    width: 400px;
+    margin: 10px 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+div.message p{
+    font-size: 20px;
+}
