@@ -50,9 +50,10 @@
                 data: "",
                 success: function (response) {
                     messages.innerHTML = response;
+                    messages.scrollTop = messages.scrollHieght;
                 }
             })
-            messages.scrollTop = messages.scrollHieght;
+           
         },1000)
 
         btnSend.addEventListener('click', () => {
