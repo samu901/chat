@@ -52,6 +52,7 @@
                     messages.innerHTML = response;
                 }
             })
+            messages.scrollTop = messages.scrollHieght;
         },1000)
 
         btnSend.addEventListener('click', () => {
