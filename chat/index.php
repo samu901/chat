@@ -44,14 +44,12 @@
         }
 
         setInterval(() =>
-             messages.scrollTop = messages.scrollHieght;
             $.ajax({
                 url: "assets/php/getMessages.php",
                 type: "post",
                 data: "",
                 success: function (response) {
                     messages.innerHTML = response;
-                 
                 }
             })
            
